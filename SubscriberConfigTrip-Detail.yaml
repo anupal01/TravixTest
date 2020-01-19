@@ -1,0 +1,6 @@
+AppName: SubAiportLocation
+Project_id: mystical-being-265315
+Service_Account_File: travixtest.json
+Subscription_name: SubTripDetail
+Bigquery_table: mystical-being-265315.TravixDataset.trip_detail
+Timeout: 5.0  # How long the subscriber should listen for messages in seconds"

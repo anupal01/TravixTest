@@ -1,0 +1,65 @@
+[
+    {
+        "name": "UniqueId",
+        "type": "STRING",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "TransactionDateUTC",
+        "type": "STRING",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "Itinerary",
+        "type": "STRING",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "DestinationAirportCode",
+        "type": "STRING",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "OriginAirportCode",
+        "type": "STRING",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "OneWayOrReturn",
+        "type": "STRING",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "Segment",
+        "type": "RECORD",
+        "mode": "REPEATED",
+        "fields": [
+            {
+                "name": "NumberOfPassengers",
+                "type": "INTEGER",
+                "mode": "NULLABLE"
+            },
+            {
+                "name": "LegNumber",
+                "type": "INTEGER",
+                "mode": "NULLABLE"
+            },
+            {
+                "name": "SegmentNumber",
+                "type": "INTEGER",
+                "mode": "NULLABLE"
+            },
+            {
+                "name": "ArrivalAirportCode",
+                "type": "STRING",
+                "mode": "NULLABLE"
+            },
+            {
+                "name": "DepartureAirportCode",
+                "type": "STRING",
+                "mode": "NULLABLE"
+            }
+        ]
+    }
+
+]

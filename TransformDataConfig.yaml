@@ -1,0 +1,11 @@
+AppName: SubFlightItinerary
+Project_id: mystical-being-265315
+Service_Account_File: travixtest.json
+Subscription_name: SubFlightItinerary
+Bucket_Name: travix_test_data
+Dimension_File: transactions.json
+Fact_File: locations.json
+Topic: projects/mystical-being-265315/topics/Denormalized_Trips
+
+
+

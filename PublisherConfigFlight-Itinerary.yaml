@@ -1,0 +1,9 @@
+appName: PubSubProducer
+project_id: mystical-being-265315
+Files_Topics:
+  transactions.json: projects/mystical-being-265315/topics/Flight-Itinerary
+Service_Account_File: travixtest.json
+Bucket_Name: travix_test_data
+
+
+

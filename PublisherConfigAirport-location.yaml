@@ -1,0 +1,6 @@
+appName: PubSubProducer
+project_id: mystical-being-265315
+Files_Topics:
+  locations.json: projects/mystical-being-265315/topics/Airport-location
+Service_Account_File: travixtest.json
+Bucket_Name: travix_test_data

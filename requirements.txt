@@ -1,0 +1,14 @@
+google
+google.cloud
+google-cloud-bigquery
+google-cloud-bigquery-storage
+google-cloud-bigquery[bqstorage,pandas]
+google-cloud-pubsub
+google-cloud-storage
+pandas
+ndjson
+PyYAML
+ndjson
+gcsfs
+flatten_json
+pandasql
