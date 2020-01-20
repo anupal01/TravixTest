@@ -6,4 +6,4 @@ ADD PublisherConfigAirport-location.yaml /
 ADD requirements.txt /
 RUN pip install -r requirements.txt
 
-CMD [ "python", "./TransformData.py", "PublisherConfigAirport-location.yaml"]
+CMD [ "python", "./PublisherApp.py", "PublisherConfigAirport-location.yaml"]

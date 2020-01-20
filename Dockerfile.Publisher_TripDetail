@@ -2,8 +2,8 @@ FROM python:3.6
 
 ADD TransformData.py /
 ADD travixtest.json /
-ADD TransformDataConfig.yaml /
+ADD SubscriberConfigFlight-Itinerary.yaml /
 ADD requirements.txt /
 RUN pip install -r requirements.txt
 
-CMD [ "python", "./TransformData.py", "TransformDataConfig.yaml" ]
+CMD [ "python", "./TransformData.py", "TransformDataConfig.yaml" , "SubscriberConfigFlight-Itinerary.yaml"]

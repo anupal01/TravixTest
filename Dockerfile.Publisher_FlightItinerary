@@ -6,4 +6,4 @@ ADD PublisherConfigFlight-Itinerary.yaml /
 ADD requirements.txt /
 RUN pip install -r requirements.txt
 
-CMD [ "python", "./TransformData.py", "PublisherConfigFlight-Itinerary.yaml"]
+CMD [ "python", "./PublisherApp.py", "PublisherConfigFlight-Itinerary.yaml"]

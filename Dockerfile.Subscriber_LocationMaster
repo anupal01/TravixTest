@@ -6,4 +6,4 @@ ADD SubscriberConfigAirportLocation.yaml /
 ADD requirements.txt /
 RUN pip install -r requirements.txt
 
-CMD [ "python", "./SubscribeIntoBigquery.py" ]
+CMD [ "python", "./SubscribeIntoBigquery.py" , "SubscriberConfigAirportLocation.yaml" ]
