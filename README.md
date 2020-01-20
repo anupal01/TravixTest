@@ -1,13 +1,14 @@
 # TravixTest
- This is a single repo with implementation to read from gcs and publish into pubsub, it also has the implementation to join two files namely: "transaction.json" and "locations.json", to create a new structure and insert into pubsub. The repo also contains the python implemantation to read from pubsub and push to bigquery.
+This is a single repo with implementation to read from gcs and publish into pubsub, it also has the implementation to join two files namely: "transaction.json" and "locations.json", to create a new structure and insert into pubsub. The repo also contains the python implemantation to read from pubsub and push to bigquery.
 
  Use cases:
  
  1. Read from gcs and publish to PubSub. Below are the scripts and configs:
- 
-       PublisherApp.py -- main script
-    
-    This is the config to push the Location master data and Flight transaction data respectively:
+
+         
+         PublisherApp.py -- main script
+       
+  This is the config to push the Location master data and Flight transaction data respectively:
     
        PublisherConfigAirport-location.yaml
 
