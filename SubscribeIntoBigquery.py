@@ -11,9 +11,8 @@ def readconfig(configfile):
         return values
 
 
-configuration_file = 'SubscriberConfigFlight-Itinerary.yaml'
-#configuration_file = sys.argv[1]
-#attributes = readconfig(sys.argv[1])
+#configuration_file = 'SubscriberConfigFlight-Itinerary.yaml'
+configuration_file = sys.argv[1]
 attributes = readconfig(configuration_file)
 service_account = attributes['Service_Account_File']
 project_id = attributes['Project_id']

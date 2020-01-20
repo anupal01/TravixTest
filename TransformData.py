@@ -7,8 +7,8 @@ import sys
 import pandas
 import pandasql
 
-configuration_file = 'TransformDataConfig.yaml'
-#configuration_file = sys.argv[1]
+#configuration_file = 'TransformDataConfig.yaml'
+configuration_file = sys.argv[1]
 json_data = ''
 list = []
 futures = dict()

@@ -6,4 +6,4 @@ ADD TransformDataConfig.yaml /
 ADD requirements.txt /
 RUN pip install -r requirements.txt
 
-CMD [ "python", "./TransformData.py" ]
+CMD [ "python", "./TransformData.py", "TransformDataConfig.yaml" ]

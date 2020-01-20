@@ -1,8 +1,8 @@
 FROM python:3.6
 
-ADD TransformData.py /
+ADD SubscribeIntoBigquery.py /
 ADD travixtest.json /
-ADD TransformDataConfig.yaml /
+ADD SubscriberConfigTrip-Detail.yaml /
 ADD requirements.txt /
 RUN pip install -r requirements.txt
 
